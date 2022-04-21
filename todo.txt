@@ -1,0 +1,2 @@
+fremvis eventuelle store projekter inde i "mine pojekter"
+få topbarens links til at scroll ned

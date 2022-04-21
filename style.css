@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    background-color: rgb(50, 50, 60);
+    color: #f2f2f2;
+    line-height: 1.5;
+
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+
+a:link {
+    color: rgb(0, 126, 199)
+}
+
+.maintext h2 {
+    padding: 1%;
+    padding-left: 21%;
+}
+
+.maintext p {
+    padding: 10px;
+    font-size: 17px;
+    padding-left: 21%;
+    padding-right: 30%;
+    
+}
+.topnav {
+    background-color: rgb(50, 50, 55);
+    overflow: hidden;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.leftnav {
+    padding-right: 30%;
+    padding-left: 20%;
+}
+
+.leftnav a {
+    font-size: 19px;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    scale: 1.05;
+}
+
+.rightnav a {
+    font-size: 17px;
+}
