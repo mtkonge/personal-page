@@ -37,7 +37,7 @@ h2:target {
 
 #mainimage {
     float: right;
-    padding-right: 18%;
+    margin-right: 18%;
     transition: 100ms ease-in-out;
 
 }
