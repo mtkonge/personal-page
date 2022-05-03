@@ -13,8 +13,14 @@ h1,h2,h3,h4,h5,h6,p {
     box-sizing: border-box;
 }
 
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    color: rgb(0, 168, 154)
+
+   }
+
 a:link {
-    color: rgb(0, 126, 199)
+    color: rgb(0, 168, 154)
 }
 img {
     border-radius: 5%;
@@ -27,9 +33,7 @@ img {
     
 }
 
-h2:target {
-    transform:translateX(30px);
-}
+
 #mainimage:hover {
     scale: 1.05;
     transition: 100ms ease-in-out;
@@ -47,7 +51,7 @@ h2:target {
     
 }
 
-.maintext h2 {
+.maintext h2, h3 {
     padding: 1%;
     padding-left: 20%;
 }
@@ -71,7 +75,7 @@ h2:target {
 }
 
 .leftnav {
-    padding-right: 30%;
+    padding-right: 40%;
     padding-left: 1%;
 }
 
@@ -94,6 +98,7 @@ h2:target {
     transition: 100ms ease-in-out;
 }
 
-.rightnav a {
-    font-size: 17px;
+.project-seperator {
+    color: rgb(65, 65, 70);
+
 }
