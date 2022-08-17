@@ -3,7 +3,7 @@ body {
     background-color: rgb(50, 50, 60);
     color: #f2f2f2;
     line-height: 1.5;
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -36,13 +36,13 @@ img {
 
 #mainimage:hover {
     scale: 1.05;
-    transition: 100ms ease-in-out;
+    transition: 150ms ease-in-out;
 }
 
 #mainimage {
     float: right;
     margin-right: 18%;
-    transition: 100ms ease-in-out;
+    transition: 150ms ease-in-out;
 
 }
 
@@ -51,14 +51,14 @@ img {
     
 }
 
-.maintext h2, h3 {
+.maintext h2, h3, h4, hr {
     padding: 1%;
     padding-left: 20%;
 }
 
 .maintext p {
     padding: 10px;
-    font-size: 17px;
+    font-size: 19px;
     padding-left: 20%;
     padding-right: 30%;
     
@@ -101,4 +101,8 @@ img {
 .project-seperator {
     color: rgb(65, 65, 70);
 
+}
+
+.project-headline {
+    font-weight: bold;
 }
